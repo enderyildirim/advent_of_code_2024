@@ -3,7 +3,7 @@ left = []
 right = []
 with open('input.txt', 'r') as file:
     for line in file:
-        fields = line.strip().split("   ")  # Split using the custom delimiter
+        fields = line.strip().split("   ")
         left.append(int(fields[0]))
         right.append(int(fields[1]))
 
